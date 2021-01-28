@@ -369,3 +369,6 @@ extraVolumeMounts: |
 #  - name: ssl-certs
 #    mountPath: /etc/ssl/certs/ca-certificates.crt
 #    subPath: ca-certificates.crt
+
+# Extra environment variables that will be passed into the exporter pod
+env: {}
